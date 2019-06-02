@@ -1,0 +1,14 @@
+Package: list.array
+Type: Package
+Title: 2d-array with list objects as elements
+Version: 0.1.0
+Authors@R: c(person("Mark", "Heckmann", role = c("aut", "cre"),
+    email = "heckmann.mark@gmail.com"))
+Description: Implements a class which is subsettable like a matrix, but can contain
+  lists or any other random objects as cell elements. 
+Encoding: UTF-8
+License: GPL (>= 3)
+OS_type: windowsVignetteBuilder: knitr
+URL: https://github.com/markheckmann/list-array
+BugReports: https://github.com/markheckmann/list-array/issues
+RoxygenNote: 6.1.1
